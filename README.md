@@ -10,7 +10,7 @@ Focus: HTML, CSS, JavaScript, Node
 - CSS, a style sheet language for styling markup languages like html
 - JavaScript, a scripting language for the web
 - BootStrap, a framework for responsive web design
-- Node, 
+- Node, a JavaScript runtime built on Chrome's V8 JavaScript engine
 
 # References
 
