@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="Kantipudi_ChandraMouli.css"/>
+<form action="/action_page.php">
+    <title>Cricket</title>
+<body>
+<ul>
+<li><span id="sitename">A03Kantipudi</span></span></li>
+<li><a class="active" href="Kantipudi_ChandraMouli">Home</a></li>
+<li><a href="#Cricket">Cricket</a></li>
+<li><a href= "Contact">Contact</a></li>
+<li><a href= "guestbook">GuestBook</a></li>
+</ul>
+<header><h1 class="header">Cricket</h1><header>
+<form>
+<div  class = "active">
+<p>
+<h1 class="header">Batsman</h1>
+<h4>Average and Strike Rate Calculator</h4>
+<img src="8.jpg" style="width:24em;height:16em;"><br>
+ <br>
+Number of innings played:  
+<input type="text" id="innings" name="innings" value=""><br>
+ <br>
+Runs scored:
+<input type="text" id="runs" name="runs" value=""><br>
+ <br>
+Number of balls faced:
+<input type="text" id="ballsfaced" name="ballsfaced" value=""><br>
+<br>
+Number of not outs:
+<input type="text" id="notouts" name="not outs" value=""><br>
+ <br>
+<button type="button" onclick="calaverage()">Calculate</button><br>
+ <br>
+ Average of Batsman:
+ <input type="text" id="ave" value="average"><br>
+ <br>
+ Strike Rate of Batsman:
+ <input type="text" id="SR" value="StrikeRate"><br>
+ <br>
+</p>
+    <p>
+    <h1 class="header">Bowler</h1>
+    <h4>Economy, Average and Strike Rate Calculator</h4>
+    <img src="9.jpg" style="width:15em;height:24em;"><br>
+    <br>
+    Wickets taken:
+    <input type="text" id="wickets" name="wickets" value=""><br>
+     <br>
+    Runs conceded:
+    <input type="text" id="runsconceded" name="runsconceded" ><br>
+    <br>
+    Number of balls bowled:
+    <input type="text" id="ballsbowled" name="ballsbowled" value=""><br>
+    <br>
+    <button type="button" onclick="calaveragebowler()">Calculate Bowler</button><br>
+    <br>
+    Economy of Bowler:
+    <input type="text" id="economy" value="economy"><br>
+    <br>
+    Average of Bowler:
+    <input type="text" id="aveb" value="average"><br>
+    <br>
+    Strike Rate of Bowler:
+    <input type="text" id="SRb" value="StrikeRate"><br>
+    <br>
+    </p>
+</div>       
+</form>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="Cricket.js"></script>
+</body>
+</html>
